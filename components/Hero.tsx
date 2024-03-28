@@ -8,15 +8,15 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image 
-          src="/camp.svg"
+          src="/logo.png"
           alt="camp"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">About us </h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
+        In addition to our core practice areas, we offer a range of specialized legal services to meet our clients' diverse needs. Our services include mediation and arbitration for dispute resolution, legal consulting for strategic guidance, and international law expertise for cross-border matters.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -41,8 +41,8 @@ const Hero = () => {
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Download App" 
-            variant="btn_green" 
+            title="our digital storage" 
+            variant="btn_blue-500" 
           />
           <Button 
             type="button" 
@@ -61,7 +61,8 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">18 Cnr Hospital Road & Mbuya Nehanda, Newtown Kwekwe
+</p>
           </div>
 
           <div className="flexBetween">
